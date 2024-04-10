@@ -16,5 +16,10 @@ const config: Config = {
     },
   },
   plugins: [],
+  extend: {
+    fontFamily: {
+      // condensed: ["condensed", "sans-serif"],
+    },
+  },
 };
 export default config;
